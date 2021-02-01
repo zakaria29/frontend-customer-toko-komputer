@@ -99,7 +99,7 @@ class Cart extends React.Component{
 
         let data = {
             customer_id: this.state.customerID,
-            detail_transaksi: JSON.stringify(tempCart)
+            detail_transaksi: tempCart
         }
 
         let url = base_url + "/transaksi"
